@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.hyy">
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainMenuActivity"
+            android:label="我爱学诗词"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ImportPoemActivity"
+            android:label="导入诗词" />
+        <activity
+            android:name=".MemorizePoemActivity"
+            android:label="记诗词" />
+        <activity
+            android:name=".ReviewPoemActivity"
+            android:label="复习本" />
+        <activity
+            android:name=".SearchPoemActivity"
+            android:label="诗词查询" />
+        <activity
+            android:name=".PoemGameMenuActivity"
+            android:label="诗词游戏" />
+        <activity
+            android:name=".GuessPoemActivity"
+            android:label="诗词游戏-看图猜诗词" />
+        <activity
+            android:name=".CompletePoemGameActivity"
+            android:label="诗词游戏-诗词填空" />
+        <activity
+            android:name=".AutoCreatePoemActivity"
+            android:label="自动生成诗词" />
+        <activity
+            android:name=".WritePoemActivity"
+            android:label="写诗词" />
+        <activity
+            android:name=".PoemCollegeActivity"
+            android:label="诗词学院" />
+        <activity
+            android:name=".MyPoemListActivity"
+            android:label="我写的诗词" />
+        <activity
+            android:name=".MyPoemContentActivity"
+            android:label="诗词内容" />
+        <activity
+            android:name=".PoemKnowledgeActivity"
+            android:label="诗词知识集锦" />
+    </application>
+
+</manifest>

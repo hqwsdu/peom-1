@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_poem_lib"
+            android:icon="@drawable/shiciku"
+            android:title="诗词库" />
+        <item
+            android:id="@+id/nav_review_book"
+            android:icon="@drawable/fuxi"
+            android:title="复习本" />
+        <item
+            android:id="@+id/nav_search_poem"
+            android:icon="@drawable/chazhao"
+            android:title="诗词查询" />
+        <item
+            android:id="@+id/nav_poem_game"
+            android:icon="@drawable/youxi"
+            android:title="诗词游戏" />
+        <item
+            android:id="@+id/nav_auto_create_poem"
+            android:icon="@drawable/shengcheng"
+            android:title="自动生成诗词" />
+        <item
+            android:id="@+id/nav_import_poem"
+            android:icon="@drawable/daoru"
+            android:title="导入诗词" />
+        <item android:id="@+id/nav_write_poem"
+            android:icon="@drawable/xieshici"
+            android:title="写诗词"/>
+
+        <item android:id="@+id/nav_poem_college"
+            android:icon="@drawable/auto"
+            android:title="诗词学院"/>
+
+    </group>
+
+</menu>

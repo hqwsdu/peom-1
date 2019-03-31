@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.hyy.MainActivity"
+    android:padding="20dp"
+    android:orientation="vertical">
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shape_bg_btn"
+        android:textColor="#ffffff"
+        android:layout_marginTop="10dp"
+        android:text="诗词库"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shape_bg_btn"
+        android:textColor="#ffffff"
+        android:layout_marginTop="10dp"
+        android:text="记诗词"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shape_bg_btn"
+        android:textColor="#ffffff"
+        android:layout_marginTop="10dp"
+        android:text="复习本"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shape_bg_btn"
+        android:textColor="#ffffff"
+        android:layout_marginTop="10dp"
+        android:text="诗词查询"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shape_bg_btn"
+        android:textColor="#ffffff"
+        android:layout_marginTop="10dp"
+        android:text="诗词游戏"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shape_bg_btn"
+        android:textColor="#ffffff"
+        android:layout_marginTop="10dp"
+        android:text="导入诗词"/>
+
+
+</LinearLayout>
